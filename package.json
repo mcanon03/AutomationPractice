@@ -1,0 +1,17 @@
+{
+  "name": "node-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "nightwatch": "^0.9.9"
+  },
+  "scripts": {
+    "test": "test",
+  },
+  "author": "",
+  "license": "ISC"
+}

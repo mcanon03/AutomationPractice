@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="agamePong"
+    errors="0" failures="0" hostname="" id="" package="agamePong" skipped="0"
+    tests="1" time="20.47" timestamp="Wed, 14 Dec 2016 16:56:54 GMT">
+  
+    <testcase name="Test agame search and return" time="20.47" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

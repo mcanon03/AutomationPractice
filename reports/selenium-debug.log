@@ -1,76 +1,76 @@
-08:56:04.910 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
-08:56:04.910 INFO - Launching a standalone Selenium Server
-2016-12-14 08:56:04.946:INFO::main: Logging initialized @571ms
-08:56:05.035 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+11:01:00.858 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
+11:01:00.858 INFO - Launching a standalone Selenium Server
+2016-12-14 11:01:00.891:INFO::main: Logging initialized @513ms
+11:01:00.974 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-08:56:05.036 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+11:01:00.974 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-08:56:05.036 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-08:56:05.036 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+11:01:00.974 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+11:01:00.974 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-08:56:05.036 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-08:56:05.036 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-2016-12-14 08:56:05.103:INFO:osjs.Server:main: jetty-9.2.15.v20160210
-2016-12-14 08:56:05.138:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@6cc4c815{/,null,AVAILABLE}
-2016-12-14 08:56:05.194:INFO:osjs.ServerConnector:main: Started ServerConnector@7823a2f9{HTTP/1.1}{0.0.0.0:4444}
-2016-12-14 08:56:05.195:INFO:osjs.Server:main: Started @820ms
-08:56:05.195 INFO - Selenium Server is up and running
-08:56:05.506 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-08:56:05.550 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Search Test Google, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-08:56:05.580 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Search Test Google, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 30787
+11:01:00.974 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+11:01:00.974 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2016-12-14 11:01:01.035:INFO:osjs.Server:main: jetty-9.2.15.v20160210
+2016-12-14 11:01:01.067:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@6cc4c815{/,null,AVAILABLE}
+2016-12-14 11:01:01.118:INFO:osjs.ServerConnector:main: Started ServerConnector@7823a2f9{HTTP/1.1}{0.0.0.0:4444}
+2016-12-14 11:01:01.118:INFO:osjs.Server:main: Started @740ms
+11:01:01.118 INFO - Selenium Server is up and running
+11:01:01.393 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+11:01:01.434 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Search Test Google, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+11:01:01.460 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Search Test Google, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 33360
 Only local connections are allowed.
-08:56:06.112 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-08:56:07.053 INFO - Detected dialect: OSS
-08:56:07.071 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Search Test Google, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-08:56:07.089 INFO - Executing: [get: http://www.google.com])
-08:56:08.422 INFO - Done: [get: http://www.google.com]
-08:56:08.435 INFO - Executing: [find elements: By.cssSelector: body])
-08:56:08.467 INFO - Done: [find elements: By.cssSelector: body]
-08:56:08.472 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (1ea328f4eee8f0bf31fd78597aa2a3c1)] -> css selector: body]])
-08:56:08.488 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (1ea328f4eee8f0bf31fd78597aa2a3c1)] -> css selector: body]]
-08:56:08.495 INFO - Executing: [find element: By.cssSelector: input[type=text]])
-08:56:08.511 INFO - Done: [find element: By.cssSelector: input[type=text]]
-08:56:08.516 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (1ea328f4eee8f0bf31fd78597aa2a3c1)] -> css selector: input[type=text]], [c, r, o, s, s, f, i, t, 2, 1, 4]])
-08:56:08.605 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (1ea328f4eee8f0bf31fd78597aa2a3c1)] -> css selector: input[type=text]], [c, r, o, s, s, f, i, t, 2, 1, 4]]
-08:56:08.616 INFO - Executing: [find elements: By.cssSelector: button[name=btnG]])
-08:56:08.631 INFO - Done: [find elements: By.cssSelector: button[name=btnG]]
-08:56:08.636 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (1ea328f4eee8f0bf31fd78597aa2a3c1)] -> css selector: button[name=btnG]]])
-08:56:08.650 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (1ea328f4eee8f0bf31fd78597aa2a3c1)] -> css selector: button[name=btnG]]]
-08:56:08.655 INFO - Executing: [find element: By.cssSelector: button[name=btnG]])
-08:56:08.670 INFO - Done: [find element: By.cssSelector: button[name=btnG]]
-08:56:08.673 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (1ea328f4eee8f0bf31fd78597aa2a3c1)] -> css selector: button[name=btnG]]])
-08:56:08.726 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (1ea328f4eee8f0bf31fd78597aa2a3c1)] -> css selector: button[name=btnG]]]
-08:56:09.740 INFO - Executing: [find element: By.cssSelector: #res h3.r a])
-08:56:09.832 INFO - Done: [find element: By.cssSelector: #res h3.r a]
-08:56:09.839 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on MAC (1ea328f4eee8f0bf31fd78597aa2a3c1)] -> css selector: #res h3.r a]])
-08:56:09.866 INFO - Done: [get text: 3 [[ChromeDriver: chrome on MAC (1ea328f4eee8f0bf31fd78597aa2a3c1)] -> css selector: #res h3.r a]]
-08:56:09.873 INFO - Executing: [delete session: 1e27311d-7f89-4e04-803e-98902958c114])
-08:56:09.951 INFO - Done: [delete session: 1e27311d-7f89-4e04-803e-98902958c114]
-08:56:09.966 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Search Test NPM, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-08:56:09.967 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Search Test NPM, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 42011
+11:01:01.954 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+11:01:02.775 INFO - Detected dialect: OSS
+11:01:02.794 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Search Test Google, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+11:01:02.813 INFO - Executing: [get: http://www.google.com])
+11:01:04.400 INFO - Done: [get: http://www.google.com]
+11:01:04.409 INFO - Executing: [find elements: By.cssSelector: body])
+11:01:04.442 INFO - Done: [find elements: By.cssSelector: body]
+11:01:04.447 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (f2ac17b830d31a0c423acc1cb9d48454)] -> css selector: body]])
+11:01:04.463 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (f2ac17b830d31a0c423acc1cb9d48454)] -> css selector: body]]
+11:01:04.470 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+11:01:04.485 INFO - Done: [find element: By.cssSelector: input[type=text]]
+11:01:04.489 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (f2ac17b830d31a0c423acc1cb9d48454)] -> css selector: input[type=text]], [c, r, o, s, s, f, i, t, 2, 1, 4]])
+11:01:04.574 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (f2ac17b830d31a0c423acc1cb9d48454)] -> css selector: input[type=text]], [c, r, o, s, s, f, i, t, 2, 1, 4]]
+11:01:04.584 INFO - Executing: [find elements: By.cssSelector: button[name=btnG]])
+11:01:04.599 INFO - Done: [find elements: By.cssSelector: button[name=btnG]]
+11:01:04.602 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (f2ac17b830d31a0c423acc1cb9d48454)] -> css selector: button[name=btnG]]])
+11:01:04.615 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (f2ac17b830d31a0c423acc1cb9d48454)] -> css selector: button[name=btnG]]]
+11:01:04.619 INFO - Executing: [find element: By.cssSelector: button[name=btnG]])
+11:01:04.637 INFO - Done: [find element: By.cssSelector: button[name=btnG]]
+11:01:04.640 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (f2ac17b830d31a0c423acc1cb9d48454)] -> css selector: button[name=btnG]]])
+11:01:04.691 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (f2ac17b830d31a0c423acc1cb9d48454)] -> css selector: button[name=btnG]]]
+11:01:05.700 INFO - Executing: [find element: By.cssSelector: #res h3.r a])
+11:01:05.716 INFO - Done: [find element: By.cssSelector: #res h3.r a]
+11:01:05.719 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on MAC (f2ac17b830d31a0c423acc1cb9d48454)] -> css selector: #res h3.r a]])
+11:01:05.737 INFO - Done: [get text: 3 [[ChromeDriver: chrome on MAC (f2ac17b830d31a0c423acc1cb9d48454)] -> css selector: #res h3.r a]]
+11:01:05.742 INFO - Executing: [delete session: 2dd1587a-b8ef-43f9-b98d-88f8f789599c])
+11:01:05.875 INFO - Done: [delete session: 2dd1587a-b8ef-43f9-b98d-88f8f789599c]
+11:01:05.891 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Search Test NPM, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+11:01:05.892 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Search Test NPM, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 38503
 Only local connections are allowed.
-08:56:10.007 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-08:56:10.659 INFO - Detected dialect: OSS
-08:56:10.661 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Search Test NPM, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-08:56:10.667 INFO - Executing: [get: http://www.npmjs.com])
-08:56:13.500 INFO - Done: [get: http://www.npmjs.com]
-08:56:13.504 INFO - Executing: [find elements: By.cssSelector: body])
-08:56:13.522 INFO - Done: [find elements: By.cssSelector: body]
-08:56:13.526 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (a22b6df80dc7671a74795f260574c85a)] -> css selector: body]])
-08:56:13.538 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (a22b6df80dc7671a74795f260574c85a)] -> css selector: body]]
-08:56:13.542 INFO - Executing: [find element: By.cssSelector: input[type=search]])
-08:56:13.557 INFO - Done: [find element: By.cssSelector: input[type=search]]
-08:56:13.561 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (a22b6df80dc7671a74795f260574c85a)] -> css selector: input[type=search]], [b, a, b, e, l]])
-08:56:13.654 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (a22b6df80dc7671a74795f260574c85a)] -> css selector: input[type=search]], [b, a, b, e, l]]
-08:56:13.658 INFO - Executing: [find element: By.cssSelector: button])
-08:56:13.694 INFO - Done: [find element: By.cssSelector: button]
-08:56:13.699 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (a22b6df80dc7671a74795f260574c85a)] -> css selector: button]])
-08:56:15.101 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (a22b6df80dc7671a74795f260574c85a)] -> css selector: button]]
-08:56:16.107 INFO - Executing: [find element: By.cssSelector: h3])
-08:56:16.126 INFO - Done: [find element: By.cssSelector: h3]
-08:56:16.130 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on MAC (a22b6df80dc7671a74795f260574c85a)] -> css selector: h3]])
-08:56:16.151 INFO - Done: [get text: 3 [[ChromeDriver: chrome on MAC (a22b6df80dc7671a74795f260574c85a)] -> css selector: h3]]
-08:56:16.154 INFO - Executing: [delete session: fdf9297d-43b5-4d3e-94be-fcf74d8dcf94])
-08:56:16.228 INFO - Done: [delete session: fdf9297d-43b5-4d3e-94be-fcf74d8dcf94]
+11:01:05.932 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+11:01:06.614 INFO - Detected dialect: OSS
+11:01:06.617 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Search Test NPM, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+11:01:06.623 INFO - Executing: [get: http://www.npmjs.com])
+11:01:09.431 INFO - Done: [get: http://www.npmjs.com]
+11:01:09.435 INFO - Executing: [find elements: By.cssSelector: body])
+11:01:09.452 INFO - Done: [find elements: By.cssSelector: body]
+11:01:09.455 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (42f223420ab92f4e1d2b3a48aa8533c2)] -> css selector: body]])
+11:01:09.467 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (42f223420ab92f4e1d2b3a48aa8533c2)] -> css selector: body]]
+11:01:09.470 INFO - Executing: [find element: By.cssSelector: input[type=search]])
+11:01:09.486 INFO - Done: [find element: By.cssSelector: input[type=search]]
+11:01:09.489 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (42f223420ab92f4e1d2b3a48aa8533c2)] -> css selector: input[type=search]], [b, a, b, e, l]])
+11:01:09.570 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (42f223420ab92f4e1d2b3a48aa8533c2)] -> css selector: input[type=search]], [b, a, b, e, l]]
+11:01:09.574 INFO - Executing: [find element: By.cssSelector: button])
+11:01:09.603 INFO - Done: [find element: By.cssSelector: button]
+11:01:09.607 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (42f223420ab92f4e1d2b3a48aa8533c2)] -> css selector: button]])
+11:01:10.752 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (42f223420ab92f4e1d2b3a48aa8533c2)] -> css selector: button]]
+11:01:11.761 INFO - Executing: [find element: By.cssSelector: h3])
+11:01:11.778 INFO - Done: [find element: By.cssSelector: h3]
+11:01:11.782 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on MAC (42f223420ab92f4e1d2b3a48aa8533c2)] -> css selector: h3]])
+11:01:11.806 INFO - Done: [get text: 3 [[ChromeDriver: chrome on MAC (42f223420ab92f4e1d2b3a48aa8533c2)] -> css selector: h3]]
+11:01:11.812 INFO - Executing: [delete session: c83471d5-8c26-4085-adb1-878eec6a64a0])
+11:01:11.885 INFO - Done: [delete session: c83471d5-8c26-4085-adb1-878eec6a64a0]

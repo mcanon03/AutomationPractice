@@ -1,4 +1,3 @@
-//node export syntax
 module.exports = {
   'Search Test NPM' : function (browser) {
     browser

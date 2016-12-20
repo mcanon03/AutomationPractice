@@ -2,20 +2,31 @@
 
 const commands = {
   isLoaded() {
-      return this;
-      .waitForElementVisible('@BRBdisclaimer', 5000);
-  }
+    return this
+      //.expect.element('@BRBtitle').text.to.equal('Blue Ribbon Bags')
+      .waitForElementVisible('@BRBdisclaimer', 3000);
+  },
 
+  setNumOfPassengers(numSelection) {
+    return this
+      //working code -- hard coded option
+      .waitForElementVisible('@numPassengers', 3000)
+      .click('@numPassengers')
+      .click("option[value='"+numSelection+"']")
+      .click('@selectButton')
+  }
 };
 
 module.exports = {
   url: function () {
-    return "https://www.npmjs.com/";
+    return "http://dev.tsxstore.com/tsp/blue-ribbon-bags?accessToken=21233859363b554";
   },
   commands: [commands],
   elements: {
 
-  BRBdisclaimer: 'p:last-child',
+  BRBdisclaimer: 'p',
+  numPassengers: 'select[id=numPassengers]',
+  selectButton: 'button'
 
   }
 };

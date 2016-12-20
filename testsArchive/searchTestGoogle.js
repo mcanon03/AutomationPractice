@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = {
   'Search Test Google' : function (browser) {
     browser

@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = {
   'Search Test NPM' : function (browser) {
     browser

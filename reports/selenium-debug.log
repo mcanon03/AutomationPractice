@@ -1,53 +1,84 @@
-02:13:21.324 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
-02:13:21.324 INFO - Launching a standalone Selenium Server
-2016-12-20 02:13:21.361:INFO::main: Logging initialized @577ms
-02:13:21.456 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+22:50:26.939 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
+22:50:26.940 INFO - Launching a standalone Selenium Server
+2016-12-22 22:50:26.978:INFO::main: Logging initialized @598ms
+22:50:27.074 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-02:13:21.457 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+22:50:27.074 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-02:13:21.457 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-02:13:21.457 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+22:50:27.074 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+22:50:27.074 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-02:13:21.457 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-02:13:21.457 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-2016-12-20 02:13:21.523:INFO:osjs.Server:main: jetty-9.2.15.v20160210
-2016-12-20 02:13:21.557:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@6cc4c815{/,null,AVAILABLE}
-2016-12-20 02:13:21.613:INFO:osjs.ServerConnector:main: Started ServerConnector@17f370ee{HTTP/1.1}{0.0.0.0:4444}
-2016-12-20 02:13:21.613:INFO:osjs.Server:main: Started @829ms
-02:13:21.613 INFO - Selenium Server is up and running
-02:13:21.974 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-02:13:22.027 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Select Number Of Passengers, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-02:13:22.058 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Select Number Of Passengers, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 47612
+22:50:27.074 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+22:50:27.074 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2016-12-22 22:50:27.144:INFO:osjs.Server:main: jetty-9.2.15.v20160210
+2016-12-22 22:50:27.179:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@6cc4c815{/,null,AVAILABLE}
+2016-12-22 22:50:27.232:INFO:osjs.ServerConnector:main: Started ServerConnector@7823a2f9{HTTP/1.1}{0.0.0.0:4444}
+2016-12-22 22:50:27.233:INFO:osjs.Server:main: Started @853ms
+22:50:27.233 INFO - Selenium Server is up and running
+22:50:27.570 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+22:50:27.628 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Select Number Of Passengers, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+22:50:27.657 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Select Number Of Passengers, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 40833
 Only local connections are allowed.
-02:13:22.596 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-02:13:24.037 INFO - Detected dialect: OSS
-02:13:24.055 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Select Number Of Passengers, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-02:13:24.071 INFO - Executing: [get: http://dev.tsxstore.com/tsp/blue-ribbon-bags?accessToken=21233859363b554])
-02:13:25.667 INFO - Done: [get: http://dev.tsxstore.com/tsp/blue-ribbon-bags?accessToken=21233859363b554]
-02:13:25.681 INFO - Executing: [find elements: By.cssSelector: select[id=numPassengers]])
-02:13:25.704 INFO - Done: [find elements: By.cssSelector: select[id=numPassengers]]
-02:13:26.214 INFO - Executing: [find elements: By.cssSelector: select[id=numPassengers]])
-02:13:26.222 INFO - Done: [find elements: By.cssSelector: select[id=numPassengers]]
-02:13:26.734 INFO - Executing: [find elements: By.cssSelector: select[id=numPassengers]])
-02:13:26.758 INFO - Done: [find elements: By.cssSelector: select[id=numPassengers]]
-02:13:26.764 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (3f597f831d5a84984d3a3f4353a68116)] -> css selector: select[id=numPassengers]]])
-02:13:26.785 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (3f597f831d5a84984d3a3f4353a68116)] -> css selector: select[id=numPassengers]]]
-02:13:26.793 INFO - Executing: [find element: By.cssSelector: select[id=numPassengers]])
-02:13:26.811 INFO - Done: [find element: By.cssSelector: select[id=numPassengers]]
-02:13:26.816 INFO - Executing: [click: 0 [[ChromeDriver: chrome on MAC (3f597f831d5a84984d3a3f4353a68116)] -> css selector: select[id=numPassengers]]])
-02:13:26.952 INFO - Done: [click: 0 [[ChromeDriver: chrome on MAC (3f597f831d5a84984d3a3f4353a68116)] -> css selector: select[id=numPassengers]]]
-02:13:26.960 INFO - Executing: [find element: By.cssSelector: option[value='8']])
-02:13:26.996 INFO - Done: [find element: By.cssSelector: option[value='8']]
-02:13:27.001 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (3f597f831d5a84984d3a3f4353a68116)] -> css selector: option[value='8']]])
-02:13:27.650 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (3f597f831d5a84984d3a3f4353a68116)] -> css selector: option[value='8']]]
-02:13:27.654 INFO - Executing: [find element: By.cssSelector: button])
-02:13:27.722 INFO - Done: [find element: By.cssSelector: button]
-02:13:27.726 INFO - Executing: [click: 4 [[ChromeDriver: chrome on MAC (3f597f831d5a84984d3a3f4353a68116)] -> css selector: button]])
-02:13:27.760 INFO - Done: [click: 4 [[ChromeDriver: chrome on MAC (3f597f831d5a84984d3a3f4353a68116)] -> css selector: button]]
-02:13:27.767 INFO - Executing: [find elements: By.cssSelector: button])
-02:13:27.784 INFO - Done: [find elements: By.cssSelector: button]
-02:13:27.787 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on MAC (3f597f831d5a84984d3a3f4353a68116)] -> css selector: button]])
-02:13:27.803 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on MAC (3f597f831d5a84984d3a3f4353a68116)] -> css selector: button]]
-02:13:29.813 INFO - Executing: [delete session: 640ce786-ba03-49c2-96a4-bb3e5d8b9264])
-02:13:29.892 INFO - Done: [delete session: 640ce786-ba03-49c2-96a4-bb3e5d8b9264]
+22:50:28.185 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+22:50:29.049 INFO - Detected dialect: OSS
+22:50:29.067 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Select Number Of Passengers, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+22:50:29.085 INFO - Executing: [get: http://dev.tsxstore.com/tsp/blue-ribbon-bags?accessToken=21233859363b554])
+22:50:31.544 INFO - Done: [get: http://dev.tsxstore.com/tsp/blue-ribbon-bags?accessToken=21233859363b554]
+22:50:31.560 INFO - Executing: [find elements: By.cssSelector: .TSPView__overview__section___16xnx:last-child p:last-child])
+22:50:31.583 INFO - Done: [find elements: By.cssSelector: .TSPView__overview__section___16xnx:last-child p:last-child]
+22:50:32.093 INFO - Executing: [find elements: By.cssSelector: .TSPView__overview__section___16xnx:last-child p:last-child])
+22:50:32.117 INFO - Done: [find elements: By.cssSelector: .TSPView__overview__section___16xnx:last-child p:last-child]
+22:50:32.124 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (0e7e84aead1f5aa79e4d3955f5ac2ad6)] -> css selector: .TSPView__overview__section___16xnx:last-child p:last-child]])
+22:50:32.164 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (0e7e84aead1f5aa79e4d3955f5ac2ad6)] -> css selector: .TSPView__overview__section___16xnx:last-child p:last-child]]
+22:50:32.171 INFO - Executing: [find element: By.cssSelector: .InsuranceOffer__card___43A7V:nth-of-type(2) #numPassengers])
+22:50:32.213 INFO - Done: [find element: By.cssSelector: .InsuranceOffer__card___43A7V:nth-of-type(2) #numPassengers]
+22:50:32.220 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (0e7e84aead1f5aa79e4d3955f5ac2ad6)] -> css selector: .InsuranceOffer__card___43A7V:nth-of-type(2) #numPassengers]])
+22:50:32.371 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (0e7e84aead1f5aa79e4d3955f5ac2ad6)] -> css selector: .InsuranceOffer__card___43A7V:nth-of-type(2) #numPassengers]]
+22:50:32.378 INFO - Executing: [find element: By.cssSelector: option[value='8']])
+22:50:32.402 INFO - Done: [find element: By.cssSelector: option[value='8']]
+22:50:32.407 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (0e7e84aead1f5aa79e4d3955f5ac2ad6)] -> css selector: option[value='8']]])
+22:50:32.690 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (0e7e84aead1f5aa79e4d3955f5ac2ad6)] -> css selector: option[value='8']]]
+22:50:32.696 INFO - Executing: [find element: By.cssSelector: .InsuranceOffer__card___43A7V:nth-of-type(2) button])
+22:50:32.737 INFO - Done: [find element: By.cssSelector: .InsuranceOffer__card___43A7V:nth-of-type(2) button]
+22:50:32.747 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (0e7e84aead1f5aa79e4d3955f5ac2ad6)] -> css selector: .InsuranceOffer__card___43A7V:nth-of-type(2) button]])
+22:50:32.824 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (0e7e84aead1f5aa79e4d3955f5ac2ad6)] -> css selector: .InsuranceOffer__card___43A7V:nth-of-type(2) button]]
+22:50:32.853 INFO - Executing: [find elements: By.cssSelector: .LegalNoticesModal__checkLabel___1psHV span])
+22:50:32.935 INFO - Done: [find elements: By.cssSelector: .LegalNoticesModal__checkLabel___1psHV span]
+22:50:33.445 INFO - Executing: [find elements: By.cssSelector: .LegalNoticesModal__checkLabel___1psHV span])
+22:50:33.465 INFO - Done: [find elements: By.cssSelector: .LegalNoticesModal__checkLabel___1psHV span]
+22:50:33.972 INFO - Executing: [find elements: By.cssSelector: .LegalNoticesModal__checkLabel___1psHV span])
+22:50:33.982 INFO - Done: [find elements: By.cssSelector: .LegalNoticesModal__checkLabel___1psHV span]
+22:50:33.986 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on MAC (0e7e84aead1f5aa79e4d3955f5ac2ad6)] -> css selector: .LegalNoticesModal__checkLabel___1psHV span]])
+22:50:34.001 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on MAC (0e7e84aead1f5aa79e4d3955f5ac2ad6)] -> css selector: .LegalNoticesModal__checkLabel___1psHV span]]
+22:50:34.007 INFO - Executing: [delete session: 3caae9e2-7233-4db8-9604-80839907c942])
+22:50:34.084 INFO - Done: [delete session: 3caae9e2-7233-4db8-9604-80839907c942]
+22:50:34.099 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Select Number Of Passengers, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+22:50:34.100 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Select Number Of Passengers, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 31015
+Only local connections are allowed.
+22:50:34.182 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+22:50:34.864 INFO - Detected dialect: OSS
+22:50:34.865 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Select Number Of Passengers, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+22:50:34.869 INFO - Executing: [get: http://dev.tsxstore.com/tsp/blue-ribbon-bags?accessToken=21233859363b554])
+22:50:36.502 INFO - Done: [get: http://dev.tsxstore.com/tsp/blue-ribbon-bags?accessToken=21233859363b554]
+22:50:36.506 INFO - Executing: [find elements: By.cssSelector: .TSPView__overview__section___16xnx:last-child p:last-child])
+22:50:36.523 INFO - Done: [find elements: By.cssSelector: .TSPView__overview__section___16xnx:last-child p:last-child]
+22:50:37.032 INFO - Executing: [find elements: By.cssSelector: .TSPView__overview__section___16xnx:last-child p:last-child])
+22:50:37.042 INFO - Done: [find elements: By.cssSelector: .TSPView__overview__section___16xnx:last-child p:last-child]
+22:50:37.045 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (88821e7b7c695fda3414f44830a8980b)] -> css selector: .TSPView__overview__section___16xnx:last-child p:last-child]])
+22:50:37.060 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (88821e7b7c695fda3414f44830a8980b)] -> css selector: .TSPView__overview__section___16xnx:last-child p:last-child]]
+22:50:37.066 INFO - Executing: [find element: By.cssSelector: .InsuranceOffer__card___43A7V:nth-of-type(2) #numPassengers])
+22:50:37.083 INFO - Done: [find element: By.cssSelector: .InsuranceOffer__card___43A7V:nth-of-type(2) #numPassengers]
+22:50:37.087 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (88821e7b7c695fda3414f44830a8980b)] -> css selector: .InsuranceOffer__card___43A7V:nth-of-type(2) #numPassengers]])
+22:50:37.169 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (88821e7b7c695fda3414f44830a8980b)] -> css selector: .InsuranceOffer__card___43A7V:nth-of-type(2) #numPassengers]]
+22:50:37.174 INFO - Executing: [find element: By.cssSelector: option[value='8']])
+22:50:37.198 INFO - Done: [find element: By.cssSelector: option[value='8']]
+22:50:37.211 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (88821e7b7c695fda3414f44830a8980b)] -> css selector: option[value='8']]])
+22:50:37.511 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (88821e7b7c695fda3414f44830a8980b)] -> css selector: option[value='8']]]
+22:50:37.518 INFO - Executing: [find element: By.cssSelector: .InsuranceOffer__card___43A7V:nth-of-type(2) button])
+22:50:37.567 INFO - Done: [find element: By.cssSelector: .InsuranceOffer__card___43A7V:nth-of-type(2) button]
+22:50:37.577 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (88821e7b7c695fda3414f44830a8980b)] -> css selector: .InsuranceOffer__card___43A7V:nth-of-type(2) button]])
+22:50:37.655 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (88821e7b7c695fda3414f44830a8980b)] -> css selector: .InsuranceOffer__card___43A7V:nth-of-type(2) button]]
+22:50:37.669 INFO - Executing: [delete session: c04a0397-0b2a-46a6-b074-d7e792291f44])
+22:50:37.747 INFO - Done: [delete session: c04a0397-0b2a-46a6-b074-d7e792291f44]

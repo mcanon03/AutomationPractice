@@ -5,24 +5,24 @@
 
   <testsuite name="selectNumberOfPassengers"
     errors="1" failures="0" hostname="" id="" package="selectNumberOfPassengers" skipped="0"
-    tests="1" time="0.01500" timestamp="Tue, 20 Dec 2016 06:16:26 GMT">
+    tests="1" time="0.01900" timestamp="Fri, 23 Dec 2016 00:31:15 GMT">
   
-    <testcase name="select # of passengers" time="0.01500" assertions="0">
+    <testcase name="select # of passengers" time="0.01900" assertions="0">
     </testcase>
       <system-err>
           Error while running [Select Number Of Passengers / select # of passengers]:
 
-  TypeError: this.waitForElementVisible(...).click(...).pause is not a function
-    at Page.setNumOfPassengers (/Users/mariloucanon/Documents/QAPractice/CanonPractice/AutomationPractice/pages/BRBhome.js:14:8)
-    at Object.select # of passengers (/Users/mariloucanon/Documents/QAPractice/CanonPractice/AutomationPractice/tests/selectNumberOfPassengers.js:11:8)
+  Error: selectButton was not found in &quot;BRBhome&quot;. Available elements: BRBdisclaimer,numPassengers
+    at getElement (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:15:13)
+    at parseElementSelector (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:79:30)
+    at Page.click (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:55:7)
+    at Page.setNumOfPassengers (/Users/mariloucanon/Documents/QAPractice/CanonPractice/AutomationPractice/pages/BRBhome.js:16:8)
+    at Object.select # of passengers (/Users/mariloucanon/Documents/QAPractice/CanonPractice/AutomationPractice/tests/selectNumberOfPassengers.js:12:8)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
     at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
     at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
       </system-err>
   
   

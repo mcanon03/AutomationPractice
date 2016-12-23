@@ -3,16 +3,17 @@
 const commands = {
   isLoaded() {
     return this
-      //.expect.element('@BRBtitle').text.to.equal('Blue Ribbon Bags')
-      .waitForElementVisible('@nextStep', 3000);
+      //confirm Review Your Order //top
+      .waitForElementVisible('@termsAndConditions', 3000);
   },
 
+  //check service agreement box --> go to next page
 }
 
 module.exports = {
   commands: [commands],
   elements: {
 
-    nextStep: 'button'
+    termsAndConditions: '.LegalNoticesModal__checkLabel___1psHV span'
   }
 };

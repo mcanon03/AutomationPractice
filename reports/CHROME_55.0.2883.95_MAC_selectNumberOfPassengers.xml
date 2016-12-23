@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="2">
 
   <testsuite name="selectNumberOfPassengers"
     errors="0" failures="0" hostname="" id="" package="selectNumberOfPassengers" skipped="0"
-    tests="1" time="8.164" timestamp="Tue, 20 Dec 2016 08:13:21 GMT">
+    tests="2" time="10.41" timestamp="Fri, 23 Dec 2016 05:50:27 GMT">
   
-    <testcase name="select # of passengers" time="8.164" assertions="2">
+    <testcase name="Navigate to Review your order page" time="6.749" assertions="2">
 
     
+
+    
+    </testcase>
+  
+    <testcase name="Number of passengers fields always have same selected option" time="3.659" assertions="1">
 
     
     </testcase>

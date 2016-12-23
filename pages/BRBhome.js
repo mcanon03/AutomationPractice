@@ -7,12 +7,12 @@ const commands = {
       .waitForElementVisible('@BRBdisclaimer', 3000);
   },
 
-  setNumOfPassengers(numSelection) {
+  setNumOfPassengers(numSelection) { //for testing = only for Platinum Service (index 1)
     return this
-      //working code -- hard coded option
-      .waitForElementVisible('@numPassengers', 3000)
+      //.waitForElementVisible('@numPassengers', 3000)
       .click('@numPassengers')
       .click("option[value='"+numSelection+"']")
+      //assert selecting numOf Passengers is registered
       .click('@selectButton')
   }
 };
@@ -21,17 +21,18 @@ module.exports = {
   url: function () {
     return "http://dev.tsxstore.com/tsp/blue-ribbon-bags?accessToken=21233859363b554";
   },
+
   commands: [commands],
+
   elements: {
 
-  //code that works
-  //Warning: found X elements for selector..Only the first one will be selected
-  //use :last-child OR :last-of-type ( use > parent direction?)
-  BRBdisclaimer: 'p',
+  // Last line of the page
+  BRBdisclaimer: '.TSPView__overview__section___16xnx:last-child p:last-child',
 
   //TO DO: depending on service type, specify nth selection field
-  numPassengers: 'select[id=numPassengers]',
-  selectButton: 'button'
+  numPassengers: '.InsuranceOffer__card___43A7V:nth-of-type(2) #numPassengers',
+  selectButton: '.InsuranceOffer__card___43A7V:nth-of-type(2) button'
+
 
   }
 };

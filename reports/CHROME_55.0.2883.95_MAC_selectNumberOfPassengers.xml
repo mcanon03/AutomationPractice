@@ -5,9 +5,11 @@
 
   <testsuite name="selectNumberOfPassengers"
     errors="0" failures="0" hostname="" id="" package="selectNumberOfPassengers" skipped="0"
-    tests="1" time="7.823" timestamp="Tue, 20 Dec 2016 06:52:34 GMT">
+    tests="1" time="8.164" timestamp="Tue, 20 Dec 2016 08:13:21 GMT">
   
-    <testcase name="select # of passengers" time="7.823" assertions="1">
+    <testcase name="select # of passengers" time="8.164" assertions="2">
+
+    
 
     
     </testcase>

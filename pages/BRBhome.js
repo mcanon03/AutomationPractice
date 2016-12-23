@@ -24,7 +24,12 @@ module.exports = {
   commands: [commands],
   elements: {
 
+  //code that works
+  //Warning: found X elements for selector..Only the first one will be selected
+  //use :last-child OR :last-of-type ( use > parent direction?)
   BRBdisclaimer: 'p',
+
+  //TO DO: depending on service type, specify nth selection field
   numPassengers: 'select[id=numPassengers]',
   selectButton: 'button'
 
